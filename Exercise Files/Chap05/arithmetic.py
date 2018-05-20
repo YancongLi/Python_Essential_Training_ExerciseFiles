@@ -5,4 +5,9 @@ x = 5
 y = 3
 z = x + y
 
+a = 3
+b = 6
+c = a + b
+print(f"a + b is: {c}")
+
 print(f'result is {z}')
