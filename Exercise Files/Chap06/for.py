@@ -5,4 +5,9 @@ animals = ( 'bear', 'bunny', 'dog', 'cat', 'velociraptor' )
 
 for pet in animals:
     print(pet)
+else:
+    print("That's all the animals.")
+    
+for num in range(3):
+    print(num)
 
