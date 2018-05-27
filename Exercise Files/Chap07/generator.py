@@ -2,7 +2,7 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    for i in inclusive_range(25):
+    for i in inclusive_range(5, 25, 5):
         print(i, end = ' ')
     print()
 
@@ -10,7 +10,7 @@ def inclusive_range(*args):
     numargs = len(args)
     start = 0
     step = 1
-    
+
     # initialize parameters
     if numargs < 1:
         raise TypeError(f'expected at least 1 argument, got {numargs}')

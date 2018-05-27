@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # Copyright 2009-2017 BHG http://bw.org/
 
+#One practical example of what decorator is good for:
+
 import time
 
 def elapsed_time(f):
