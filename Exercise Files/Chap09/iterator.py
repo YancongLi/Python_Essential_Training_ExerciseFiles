@@ -34,5 +34,9 @@ def main():
     for n in inclusive_range(25):
         print(n, end=' ')
     print()
+    
+    for n in inclusive_range(5, 25, 3):
+        print(n, end=' ')
+    print()
 
 if __name__ == '__main__': main()

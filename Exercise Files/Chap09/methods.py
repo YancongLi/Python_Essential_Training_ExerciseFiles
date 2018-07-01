@@ -25,6 +25,8 @@ class Animal:
 def main():
     a0 = Animal(type = 'kitten', name = 'fluffy', sound = 'rwar')
     a1 = Animal(type = 'duck', name = 'donald', sound = 'quack')
+    a0.sound('bark')  #setter
+    print(a0.sound()) #getter
     print(a0)
     print(a1)
 
