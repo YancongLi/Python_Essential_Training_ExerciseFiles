@@ -2,7 +2,7 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    infile = open('lines.txt', 'rt')
+    infile = open('lines.txt', 'rt') #read mode and text mode
     outfile = open('lines-copy.txt', 'wt')
     for line in infile:
         print(line.rstrip(), file=outfile)

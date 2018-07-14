@@ -2,7 +2,7 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    infile = open('berlin.jpg', 'rb')
+    infile = open('berlin.jpg', 'rb') # read mode and binary mode
     outfile = open('berlin-copy.jpg', 'wb')
     while True:
         buf = infile.read(10240)
