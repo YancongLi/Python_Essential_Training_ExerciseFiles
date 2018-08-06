@@ -27,7 +27,7 @@ class numwords():
             'minus': 'minus'
         }
     }
-    _oor = 'OOR'    # Out Of Range
+    _oor = '[Out of rannge]'
 
     def __init__(self, n):
         self._number = n;
